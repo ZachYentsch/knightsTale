@@ -11,6 +11,8 @@ namespace knightsTale.Models
         public string WeaponType { get; set; }
         public string ImgUrl { get; set; }
         public string CreatorId { get; set; }
+        public Profile Creator { get; set; }
+
 
     }
 }
