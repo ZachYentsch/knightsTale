@@ -76,7 +76,7 @@ namespace knightsTale.Controllers
             {
                 Account userInfo = await HttpContext.GetUserInfoAsync<Account>();
                 _ks.remove(id, userInfo.Id);
-                return Ok("Knight Deleted")
+                return Ok("Knight Deleted");
             }
             catch (Exception e)
             {
