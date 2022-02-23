@@ -2,7 +2,7 @@ using System;
 
 namespace knightsTale.Models
 {
-    public class knights
+    public class Knight
     {
         public int Id { get; set; }
         public DateTime CreatedAt { get; set; }
